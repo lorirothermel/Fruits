@@ -10,6 +10,8 @@
 		DF0526052A345E710026F539 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0526042A345E710026F539 /* FruitNutrientsView.swift */; };
 		DF0526072A34641B0026F539 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0526062A34641B0026F539 /* SettingsView.swift */; };
 		DF0526092A3469FE0026F539 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0526082A3469FE0026F539 /* SettingsLabelView.swift */; };
+		DF05260B2A34C5840026F539 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05260A2A34C5840026F539 /* SettingsRowView.swift */; };
+		DF05260E2A34D5090026F539 /* FruitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF05260D2A34D5090026F539 /* FruitsViewModel.swift */; };
 		DF238FCB2A33F8BB0024E650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF238FCA2A33F8BB0024E650 /* LaunchScreen.storyboard */; };
 		DF238FCF2A33FA9A0024E650 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF238FCE2A33FA9A0024E650 /* FruitCardView.swift */; };
 		DF238FD12A33FFF70024E650 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF238FD02A33FFF70024E650 /* StartButtonView.swift */; };
@@ -30,6 +32,8 @@
 		DF0526042A345E710026F539 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		DF0526062A34641B0026F539 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DF0526082A3469FE0026F539 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		DF05260A2A34C5840026F539 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		DF05260D2A34D5090026F539 /* FruitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModel.swift; sourceTree = "<group>"; };
 		DF238FCA2A33F8BB0024E650 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF238FCE2A33FA9A0024E650 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		DF238FD02A33FFF70024E650 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF05260C2A34D4F10026F539 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF05260D2A34D5090026F539 /* FruitsViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		DF238FCC2A33FA3F0024E650 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +93,7 @@
 				DFC920252A344E2F008CE195 /* SourceLinkView.swift */,
 				DF0526042A345E710026F539 /* FruitNutrientsView.swift */,
 				DF0526082A3469FE0026F539 /* SettingsLabelView.swift */,
+				DF05260A2A34C5840026F539 /* SettingsRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +125,7 @@
 		DF36583E2A33C81A004F97E0 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
+				DF05260C2A34D4F10026F539 /* View Model */,
 				DFC9201C2A343281008CE195 /* Data */,
 				DF238FD42A341EEC0024E650 /* Model */,
 				DF238FCD2A33FA700024E650 /* View */,
@@ -213,12 +227,14 @@
 			files = (
 				DFC9201E2A343299008CE195 /* FruitData.swift in Sources */,
 				DFC920262A344E2F008CE195 /* SourceLinkView.swift in Sources */,
+				DF05260B2A34C5840026F539 /* SettingsRowView.swift in Sources */,
 				DF238FCF2A33FA9A0024E650 /* FruitCardView.swift in Sources */,
 				DFC920202A343AE2008CE195 /* FruitRowView.swift in Sources */,
 				DF0526052A345E710026F539 /* FruitNutrientsView.swift in Sources */,
 				DF238FD12A33FFF70024E650 /* StartButtonView.swift in Sources */,
 				DFC920222A3445BB008CE195 /* FruitDetailView.swift in Sources */,
 				DF3658422A33C81A004F97E0 /* ContentView.swift in Sources */,
+				DF05260E2A34D5090026F539 /* FruitsViewModel.swift in Sources */,
 				DFC920242A344A66008CE195 /* FruitHeaderView.swift in Sources */,
 				DF238FD32A34046B0024E650 /* OnboardingView.swift in Sources */,
 				DF0526092A3469FE0026F539 /* SettingsLabelView.swift in Sources */,

@@ -38,7 +38,7 @@ struct ContentView: View {
                     })  // .sheet
             )  // NavigationBarItems
         }  // NavigationStack
-        
+        .navigationViewStyle(.stack)
     }  // some View
 }
 
